@@ -1,0 +1,246 @@
+body{
+    margin: 0 auto;
+}
+.s-1{
+    padding-top: 50px;
+}
+.container2{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+h4{
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    margin-bottom: 7px;
+}
+.s-1 h3{
+    color: #000000;
+    font-size: 49px;
+}
+form{
+    display: flex;
+    margin-top: 59px;
+}
+textarea, input{
+    background-color: #F8F8F8;
+    border-width: 2px;
+    border: 2px solid #D4D3D3;
+}
+textarea{
+    resize: none;
+    max-width: 756px;
+    width: 100%;
+    height: 298px;
+    margin-right: 20px;
+}
+input{
+    width: 370px;
+    height: 59px;
+    margin-bottom: 20px;
+}
+.inputdiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type=text], input[type=email] {
+    width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    border: 1px solid #E9DBDB;
+    background: #F8F8F8;
+    margin-bottom: 22px;
+    padding: 21px 19px;
+}
+textarea::placeholder{
+    position: absolute;
+    top: 23px;
+    left: 21px;
+}
+#description{
+    max-width: 756px;
+    height: 298px;
+    flex-shrink: 0;
+    resize: none;
+    margin-right: 40px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    padding: 23px 21px;
+}
+textarea, input::placeholder{
+    color: #99999A;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+input:focus{
+    background-color: #F8F8F8;
+    border-color: #4E4D54;
+}
+input[type=submit]{
+    color: #FBFBFF;
+    background-color: #5968F4;
+}
+/* s-1 contactebi */
+.containcont{
+     max-width: 1150px;
+     height: 200px;
+    margin-top: 51px;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.circle{
+    width: 68px;
+    height: 68px;
+    background-color: #5968F4;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.email, .phone, .location{
+    width: 226px;
+    height: 200px;
+}
+.email, .phone, .location{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.fa-envelope, .fa-phone, .fa-location-dot{
+    position: absolute;
+    margin-top: 33px;
+}
+.containcont h2, a{
+    margin-bottom: 9px;
+    color: #99999A;
+}
+.containcont h2{
+    color: #4E4D54;
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+/* section2 */
+
+.s-2 h3{
+    color: #5863E3;
+    font-size: 17px;
+    font-weight: 700;
+    font-weight: helvetica;
+}
+.s-2 h2{
+    color: #000000;
+    font-size: 49px;
+    margin-top: 7px;
+}
+.fotoebi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 53px;
+    margin-left: 1px;
+    flex-wrap: wrap;
+}
+
+/* footer */
+
+
+ footer{
+    max-width: 1900px;
+    width: 100%;
+}
+.kontaqti{
+    height: 372px;
+    background-color: #000000;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.kontaqti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 39px;
+}
+.info{
+    width: 200px;
+    height: 300px;
+    /* margin-left: 143px; */
+}
+.kontaqti div{
+    margin-top: 63px;
+}
+.info > h4{
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-bottom: 23px;
+}
+.info > p{
+    font-family: Helvetica;
+    font-size: 17px;
+    color: #99999A;
+}
+.info > img{
+    margin-top: 23px;
+}
+.info .elip{
+    width: 40px;
+}
+.inf1{
+    width: 158px;
+}
+.inf1 a{
+    color: #202661;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 29px;
+}
+.inf1 h3{
+    color: #FFFFFF;
+    font-size: 21px;
+    margin-bottom: 32px;
+}
+.inf2{
+    width: 108px;
+}
+.inf2 a{
+    color: #202661;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 29px;
+}
+.inf2 > h3{
+    color: #FFFFFF;
+    font-size: 21px;
+    margin-bottom: 32px;
+}
+.inf3 > h3{
+    color: #FFFFFF;
+    font-size: 21px;
+    margin-bottom: 32px;
+}
+.inf3 img{
+    margin-right: 9px;
+}
+.inf3 .phon, .mail{
+    margin-bottom: 20px;
+}
+.aebi{
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.foto2, .foto3{
+    margin-top: 9px;   
+} 
+.inf3{
+    width: 240px;
+}

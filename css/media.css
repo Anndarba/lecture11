@@ -1,0 +1,142 @@
+/* @media(max-width: 1187px){
+    form{
+        flex-direction: column;
+    }
+    #description{
+        min-width: 370px;
+        width: 30%;
+        margin: 0 auto;
+    }
+} */
+@media(max-width: 1187px){
+    #description{
+        min-width: 370px;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media(max-width: 953px){
+    form{
+        flex-direction: column;
+    }
+    #description{
+        min-width: 370px;
+        width: 30%;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 1px solid rgb(63, 61, 65);
+    }
+    #subject{
+        margin-top: 40px;
+    }
+    input[type=text], input[type=email], input[type=submit]{
+        border-radius: 12px;
+        border: 1px solid rgb(19, 16, 29);
+    }
+    input[type=submit]{
+        background-color: rgb(49, 14, 131);
+    }
+}
+@media(min-width: 1187px)
+{ 
+    #description
+    min-width: 370px;
+}
+@media(min-width: 1187px){
+    .container2 .contact{
+       margin: 0 auto;
+    }
+}
+@media(max-width: 1200px){
+    .s-1 h4, .s-1 h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    .s-1 h4{
+        color: rgb(19, 16, 29);
+        font-size: 34px;
+        font-family: font-family: 'Roboto', sans-serif;
+    }
+    .s-1 h3{
+        color: rgb(68, 31, 153);
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .s-2 h2, .s-2 h3{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(19, 16, 29);
+    }
+    .s-2 h2{
+        color: rgb(66, 34, 99);
+        font-size: 40px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 940px){
+    .kontaqti > .inf3{
+        flex-direction: flex-start;
+        align-items: flex-start;
+    }
+}
+@media(max-width: 1025px){
+    .kontaqti{
+        flex-wrap: wrap;
+    }
+    .kontaqti{
+        height: auto;
+        justify-content: center;
+    }
+    .kontaqti h3{
+        color: rgb(91, 48, 116);
+    }
+    .kontaqti h4{
+        color: rgb(91, 48, 116);
+    }
+    .info > p{
+       color: white;
+    }
+    .inf1  a{
+        color: white;
+     }
+     .inf2  a{
+        color: white;
+     }
+}
+@media(max-width: 745px){
+    .fotoebi > img{
+        margin-bottom: 50px;
+        border-radius: 30px;
+    }
+}
+@media(max-width: 585px){
+    .contacts{
+        flex-direction: column;
+        width: 99%;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    .s-2{
+        margin-top: 400px;
+    }
+    .contacts{
+        font-size: 14px;
+    }
+}
+@media(max-width: 725px){
+    .kontaqti{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .info{
+        margin-left: 2px;
+    }
+}
+@media(max-width: 400px){
+    .s-1{
+        height: 220px;
+    }
+}
